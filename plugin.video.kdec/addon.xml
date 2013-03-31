@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.KDEC"
+  version="3"
+  name="KDEC !"
+  provider-name="@mio">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>KDEC plugin.</summary>
+    <description>رؤيتنا و إيماننا ككنيسة كما هو مكتوب فى نبوة حبقوق
+
+" لأَنَّ الأَرْضَ تَمْتَلِئُ مِنْ مَعْرِفَةِ مَجْدِ الرَّبِّ كَمَا تُغَطِّي الْمِيَاهُ الْبَحْرَ"</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

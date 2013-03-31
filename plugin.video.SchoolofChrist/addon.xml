@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.School of Christ"
+  version="1"
+  name="School of Christ!"
+  provider-name="@mio">
+  <requires>
+    <import addon="xbmc.python"
+            version="1.0"/>
+	<import addon="plugin.video.youtube" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>School of Christ</summary>
+    <description>School of Christ.</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
