@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="repository.amiosamy" name="All Addons by amiosamy" version="1.2" provider-name="amiosamy">
 	<extension point="xbmc.addon.repository" name="Addons from amiosamy">
-		<info compressed="false">https://github.com/amiosamy/my-plugins/raw/master/addons.xml</info>
+		<info compressed="false">https://github.com/amiosamy/my-plugins/master/addons.xml</info>
 		<checksum>https://github.com/amiosamy/my-plugins/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/amiosamy/my-plugins/raw/master/zips</datadir>
+		<datadir zip="true">https://github.com/amiosamy/my-plugins/tree/master/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Repo for my plugins</summary>
